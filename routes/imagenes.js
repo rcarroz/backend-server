@@ -23,7 +23,6 @@ app.get('/:tipo/:img', (request, response, next) => {
         response.sendfile(path);
     });
 
-
 });
 
 // Aqui se exporta el app o la ruta fuera de este archivo
